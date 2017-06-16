@@ -1,0 +1,4 @@
+## vloume使用总结 ##
+挂载本地目录到container:此种不拷贝镜像文件，适用于挂载目录，适用于开发，不适用于部署
+
+container在本地有共享数据的需求，这在虚拟机例如kvm中是没有的，当所有的container作为一个服务的时候，所有的配置是可以集中处理的，因此需要共享目录的概念。猜测volume container可以在其他机器上，与提供服务的container不在一个机器,理解 volume container需要从container结构层面上理解

@@ -1,0 +1,3 @@
+# Python Channels模块
+	Channels模块是Python为了适应web应用场景的复杂性而增加的模块，可以处理http,https以及websocket。为了便于理解，可以把Channels分为三个部分，分别是interface server，channels layer以及comsuer。其中channels提供了send和receive方法，这样 interface server和comsuer便可以往channles中首发messenge。
+	在channels中channels是很重要的概念，它可以被命名，
